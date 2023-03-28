@@ -10,7 +10,10 @@ environment:
 
 dependencies:
   # https://pub.dev/packages/dio
-  dio: ">=4.0.0 <6.0.0"  
+  dio: 
+    git:
+      url: https://github.com/J3r0R3p3tt0/dio.git
+      path: dio  
   # https://pub.dev/packages/uuid
   uuid: ^3.0.4
   # https://pub.dev/packages/string_scanner
