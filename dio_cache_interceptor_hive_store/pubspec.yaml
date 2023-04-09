@@ -7,7 +7,10 @@ environment:
   sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
-  dio_cache_interceptor: ^3.3.0
+  dio_cache_interceptor: 
+    git:
+      url: https://github.com/JeronimoRepetto/dio_cache_interceptor.git
+      path: dio_cache_interceptor
 
   # https://pub.dev/packages/hive
   hive: ^2.0.5
